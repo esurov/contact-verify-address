@@ -48,7 +48,7 @@
                             id="street"
                             type="text"
                             wire:model="street"
-                            placeholder="e.g. Karlsplatz 1"
+                            placeholder="Karlsplatz 1"
                             class="w-full rounded-lg border border-gray-700 bg-gray-800/50 px-4 py-2.5 text-gray-100 placeholder-gray-500 transition-colors focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 focus:outline-none"
                         />
                         @error('street') <p class="mt-1 text-sm text-red-400">{{ $message }}</p> @enderror
@@ -61,7 +61,7 @@
                             id="city"
                             type="text"
                             wire:model="city"
-                            placeholder="e.g. Wien"
+                            placeholder="Wien"
                             class="w-full rounded-lg border border-gray-700 bg-gray-800/50 px-4 py-2.5 text-gray-100 placeholder-gray-500 transition-colors focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 focus:outline-none"
                         />
                         @error('city') <p class="mt-1 text-sm text-red-400">{{ $message }}</p> @enderror
@@ -73,7 +73,7 @@
                             id="zip"
                             type="text"
                             wire:model="zip"
-                            placeholder="e.g. 1010"
+                            placeholder="1010"
                             class="w-full rounded-lg border border-gray-700 bg-gray-800/50 px-4 py-2.5 text-gray-100 placeholder-gray-500 transition-colors focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 focus:outline-none"
                         />
                         @error('zip') <p class="mt-1 text-sm text-red-400">{{ $message }}</p> @enderror
@@ -86,7 +86,7 @@
                             id="countryCode"
                             type="text"
                             wire:model="countryCode"
-                            placeholder="e.g. AT"
+                            placeholder="AT"
                             maxlength="2"
                             class="w-full rounded-lg border border-gray-700 bg-gray-800/50 px-4 py-2.5 uppercase text-gray-100 placeholder-gray-500 transition-colors focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 focus:outline-none"
                         />
@@ -100,7 +100,7 @@
                                 id="phone"
                                 type="text"
                                 wire:model="phone"
-                                placeholder="e.g. +43 1 58801"
+                                placeholder="+43 1 58801"
                                 class="w-full rounded-lg border border-gray-700 bg-gray-800/50 px-4 py-2.5 pr-10 text-gray-100 placeholder-gray-500 transition-colors focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 focus:outline-none"
                             />
                             @if ($phoneStatus)
@@ -131,7 +131,7 @@
                                 id="email"
                                 type="text"
                                 wire:model="email"
-                                placeholder="e.g. test@gmail.com"
+                                placeholder="test@gmail.com"
                                 class="w-full rounded-lg border border-gray-700 bg-gray-800/50 px-4 py-2.5 pr-10 text-gray-100 placeholder-gray-500 transition-colors focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 focus:outline-none"
                             />
                             @if ($emailStatus)
